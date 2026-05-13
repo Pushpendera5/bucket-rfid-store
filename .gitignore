@@ -1,0 +1,32 @@
+# ===== .NET / ASP.NET Core =====
+backend/bin/
+backend/obj/
+*.user
+*.suo
+.vs/
+*.DotSettings.user
+
+# ===== Node / React / Vite =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.env
+.env.local
+.env.*.local
+
+# ===== Secrets / config overrides =====
+backend/appsettings.json
+backend/appsettings.Development.json
+backend/appsettings.Production.json
+
+# ===== Database scripts (sensitive schema) =====
+backend/Database/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Logs =====
+*.log
+npm-debug.log*
