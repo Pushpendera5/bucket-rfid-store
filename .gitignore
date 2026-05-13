@@ -30,3 +30,7 @@ desktop.ini
 # ===== Logs =====
 *.log
 npm-debug.log*
+
+# ===== Docs & scripts (not for public repo) =====
+README.md
+restart_servers.bat
